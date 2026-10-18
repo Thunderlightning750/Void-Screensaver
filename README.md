@@ -1,64 +1,67 @@
 # VOID — A Windows Screensaver
 
-A little personal project that turned into a much bigger adventure than I expected.
+A personal Windows screensaver project made with C++ and Direct2D.
 
-VOID is a Windows screensaver I'm building in C++ using Direct2D and DirectWrite. It has a clock, system information, support for multiple monitors, customizable appearance, and optional background-image effects.
+VOID started as an idea for a screensaver I wanted to make myself. Somewhere along the way, it turned into a much bigger project involving Windows graphics, image processing, multi-monitor support, configuration files, and the wonderful experience of debugging Windows batch scripts. 😭
 
-It's something I made because I wanted to create my own screensaver instead of just using whatever Windows already had.
+It isn't a big commercial product. It's something I wanted to build, experiment with, and share.
 
-## Why I made this
+## What is VOID?
 
-Honestly, I didn't start this project expecting to make some big piece of software. I wanted to make something that looked cool, worked the way I wanted, and that I could call my own.
+VOID is a Windows screensaver featuring a clock, date, system information, and customizable visual elements.
 
-Then one feature turned into another, and suddenly I was dealing with Windows graphics, image processing, configuration files, multi-monitor behavior, and installers. Some parts were fun. Other parts were me staring at a command window wondering why the installer had immediately died. 😭
+Depending on the version, features include:
 
-But that's part of making something yourself, I guess.
-
-## A little transparency
-
-I used AI assistance throughout development, including help with writing and debugging code. I'm not going to pretend I wrote every line entirely on my own.
-
-I still made the project decisions, worked through the problems on my computer, tested things, and figured out what I wanted VOID to become. Using AI was part of how I approached the project, not something I want to hide from people looking at it.
-
-I'm still learning, and this project reflects that. There may be bugs, rough edges, or things that need to be improved. I'd rather be honest about that than pretend VOID is a finished product.
-
-## What can it do?
-
-- Display a clock, date, and system information.
-- Render using Windows graphics APIs.
-- Support multiple monitors.
-- Use a custom background image.
-- Apply optional feathered edges to the image.
-- Customize supported appearance settings through an INI file.
-
-Features and compatibility may change as development continues. Check the current source and release notes for the state of each feature.
+- Hardware-accelerated rendering through Direct2D where supported.
+- Text rendered using DirectWrite.
+- Clock, date, and system information.
+- Multi-monitor support.
+- Optional custom background images.
+- Optional feathered image edges.
+- Configurable appearance through an INI file.
+- Animated particles, where supported by the build.
 
 ## Getting started
 
-The releases currently provide **source code**, not a ready-to-run screensaver.
+You don't need to compile the project to use a release that already includes `Void.scr`.
 
-If you want to try VOID, start with the installation and build instructions linked in the latest release. You'll need the appropriate Visual Studio C++ build tools to compile it.
+1. Download the latest release ZIP.
+2. Extract it to a folder.
+3. Run `Install.bat` and approve the Windows administrator prompt.
+4. Follow the installation instructions included with the release.
 
-I want to make the process as straightforward as possible, even for people who haven't built a C++ project before.
+The installer places the screensaver in the Windows system directory and creates a separate folder in your Documents directory for VOID's settings and background image.
 
-## Images and customization
+**[Read the installation and uninstallation guide](INSTALLATION.md)** for the full explanation of what happens and how to remove it.
 
-Using your own background image is the idea. You don't need to include a character image if you'd rather have a simple screensaver, provided the version you're building supports running without one.
+## Customization
 
-Please make sure you have permission to use any artwork you include. Not every image you find online is free to redistribute.
+VOID supports a configuration file named `Void.ini`. Depending on the version, you can use it to adjust options such as the background image, image-edge processing, and particle appearance.
 
-## Known limitations
+The installed settings and image are stored in a dedicated `Documents\VOID` folder, rather than mixed in with your other documents.
 
-VOID is still a work in progress. It hasn't been tested on every Windows system, graphics card, or display type.
+You can edit the configuration file using Notepad. You shouldn't need to reinstall VOID every time you change a supported setting or replace the background image.
 
-OLED users should be especially cautious. Static screen elements can contribute to burn-in over time, and VOID does not currently guarantee protection against it. See the release notes for any additional display-related limitations.
+## A little about how this came together
 
-## What's next?
+This project was a learning experience for me. I made decisions about how I wanted VOID to look and behave, tested it on my own PC, and worked through problems as they appeared.
 
-I want to keep improving the project, making configuration easier, fixing bugs, and adding features where they make sense.
+I also used AI assistance during development, including help with C++ code, debugging, configuration, and installer scripts. It helped me get further with the project, but it didn't remove the need to figure out what I wanted, test changes, and deal with things that didn't work as expected.
 
-If you try VOID and run into a problem, feel free to report it. Constructive feedback is welcome, and bug reports help me figure out what needs attention.
+Some parts took much longer than I expected. The installer alone was enough to remind me that getting software to run correctly on someone else's Windows installation is a different challenge from getting it to work on your own computer. 💀
 
-Thanks for checking out my little project. Whether you're here to use it, look at the code, learn something, or just see what I've been working on, I appreciate it.
+I'm sharing VOID because I wanted to make something of my own and let other people try it, look at the code, or learn from it.
 
-— The creator of VOID
+## Limitations
+
+VOID is a personal project, and it may have bugs or compatibility issues. It hasn't been tested on every Windows configuration, GPU, or monitor setup.
+
+OLED displays deserve particular caution. Static screen elements can contribute to burn-in over time. VOID should not be considered burn-in protection, and users should take that risk into account before leaving it running on an OLED display for long periods.
+
+## About future updates
+
+I may return to VOID to fix bugs or improve things when I have the time and feel like working on it. I don't have a release schedule or a promise of ongoing updates.
+
+If something doesn't work, you're welcome to report it. I can't guarantee how quickly I'll respond, but useful reports help identify problems.
+
+Thanks for checking out VOID!
