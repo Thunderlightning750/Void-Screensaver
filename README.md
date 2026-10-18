@@ -1,6 +1,3 @@
-# Void-Screensaver
-A customizable Direct2D Windows screensaver with optional image effects and animated particles
-
 # VOID Screensaver
 
 A personal Windows screensaver project built with C++ and Direct2D.
