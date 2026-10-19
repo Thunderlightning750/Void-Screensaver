@@ -21,6 +21,26 @@ Depending on the version, features include:
 - Configurable appearance through an INI file.
 - Animated particles, where supported by the build.
 
+## Screenshots and examples
+
+Here are some examples of VOID running on Windows, showing its clock, system information, and customizable visual elements.
+
+### Custom background images
+
+VOID can display custom background images, allowing you to personalize the screensaver with artwork, wallpapers, or your own pictures.
+
+<img width="1920" height="1080" alt="Void Example" src="https://github.com/user-attachments/assets/a5a17691-92e4-4785-aa2c-0d0efe144474" /><img width="1920" height="1080" alt="Void Example 2" src="https://github.com/user-attachments/assets/922edfb5-897c-4ff9-beab-35055ad9f21f" />
+
+### Hatsune Miku example
+
+![Uploading Void Example 2.png…]()
+
+This is an example of how VOID can look with a Hatsune Miku background image. The image is used for demonstration purposes only and is **not included with VOID or its releases**.
+
+https://www.reddit.com/r/miku/comments/1w5uzyt/i_need_peak_wallpapers_for_my_phone_desktop_ones/
+
+All rights to the artwork belong to its respective creator. Please visit the original source for the creator's credits and usage terms.
+
 ## Getting started
 
 You don't need to compile the project to use a release that already includes `Void.scr`.
