@@ -43,6 +43,10 @@ This example demonstrates VOID's custom-background feature using a Hatsune Miku 
 
 The artwork is not included with VOID or its releases. Credit and usage rights belong to the original creator.
 
+## Startup Timing
+
+VOID has intentional delays before its visual elements appear. The text layer appears approximately 2 seconds after the .scr screensaver starts, while the background image appears approximately 30 seconds after startup. These delays are intentional and are part of the current behavior, so please allow time for the elements to appear before assuming something is broken.
+
 ## Getting started
 
 You don't need to compile the project to use a release that already includes `Void.scr`.
