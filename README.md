@@ -29,11 +29,11 @@ Here are some examples of VOID running on Windows, showing its clock, system inf
 
 VOID can display custom background images, allowing you to personalize the screensaver with artwork, wallpapers, or your own pictures.
 
-<img width="1920" height="1080" alt="Void Example" src="https://github.com/user-attachments/assets/a5a17691-92e4-4785-aa2c-0d0efe144474" /><img width="1920" height="1080" alt="Void Example 2" src="https://github.com/user-attachments/assets/922edfb5-897c-4ff9-beab-35055ad9f21f" />
+<img width="1920" height="1080" alt="Void Example" src="https://github.com/user-attachments/assets/a5a17691-92e4-4785-aa2c-0d0efe144474" />
 
 ### Hatsune Miku example
 
-![Uploading Void Example 2.png…]()
+<img width="1920" height="1080" alt="Void Example 2" src="https://github.com/user-attachments/assets/922edfb5-897c-4ff9-beab-35055ad9f21f" />
 
 This is an example of how VOID can look with a Hatsune Miku background image. The image is used for demonstration purposes only and is **not included with VOID or its releases**.
 
