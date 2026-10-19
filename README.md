@@ -31,15 +31,17 @@ VOID can display custom background images, allowing you to personalize the scree
 
 <img width="1920" height="1080" alt="Void Example" src="https://github.com/user-attachments/assets/a5a17691-92e4-4785-aa2c-0d0efe144474" />
 
+
 ### Hatsune Miku example
 
 <img width="1920" height="1080" alt="Void Example 2" src="https://github.com/user-attachments/assets/922edfb5-897c-4ff9-beab-35055ad9f21f" />
 
-This is an example of how VOID can look with a Hatsune Miku background image. The image is used for demonstration purposes only and is **not included with VOID or its releases**.
+
+This example demonstrates VOID's custom-background feature using a Hatsune Miku wallpaper.
 
 https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-need-peak-wallpapers-for-my-phone-desktop-ones-are-ok-as-v0-a6y1wziq29nh1.jpeg%3Fwidth%3D2305%26format%3Dpjpg%26auto%3Dwebp%26s%3Dd14a21306c62b171c7b5154f5951a7667c98ffe6
 
-All rights to the artwork belong to its respective creator. Please visit the original source for the creator's credits and usage terms.
+The artwork is not included with VOID or its releases. Credit and usage rights belong to the original creator.
 
 ## Getting started
 
