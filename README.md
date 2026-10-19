@@ -39,7 +39,7 @@ VOID can display custom background images, allowing you to personalize the scree
 
 This example demonstrates VOID's custom-background feature using a Hatsune Miku wallpaper.
 
-https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-need-peak-wallpapers-for-my-phone-desktop-ones-are-ok-as-v0-a6y1wziq29nh1.jpeg%3Fwidth%3D2305%26format%3Dpjpg%26auto%3Dwebp%26s%3Dd14a21306c62b171c7b5154f5951a7667c98ffe6
+[Artwork](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-need-peak-wallpapers-for-my-phone-desktop-ones-are-ok-as-v0-a6y1wziq29nh1.jpeg%3Fwidth%3D2305%26format%3Dpjpg%26auto%3Dwebp%26s%3Dd14a21306c62b171c7b5154f5951a7667c98ffe6)
 
 The artwork is not included with VOID or its releases. Credit and usage rights belong to the original creator.
 
